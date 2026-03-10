@@ -86,6 +86,7 @@ ol {
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
+  letter-spacing: 0.7px;
 }
 
 .content__details { 
@@ -208,13 +209,6 @@ ol {
   gap: 5px;
 }
 
-.search-form__fieldset-title {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-  letter-spacing: 0.7px;
-}
-
 .search-form__label {
   display: flex;
   align-items: center;
@@ -278,7 +272,7 @@ ol {
   opacity: 0;
 }
 
-.search-form__checkbox:checked + .search-form__pseudo-checkbox::after{
+.search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
   opacity: 1;
 }
 
@@ -298,7 +292,7 @@ ol {
 }
 
 .content__video-card-thumbnail, .search-form__submit-button:hover,
-.search-form__label-text:hover{
+.search-form__label-text:hover {
   cursor: url(../images/cursor_image.png), pointer;
 }
 
